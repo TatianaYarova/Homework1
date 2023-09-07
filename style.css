@@ -110,12 +110,12 @@
         left: 32px;
 
     }
-    .content__itemone {
+    .content__item_one {
         background-image: url(img/gameone.jpg);
     }
-    .content__itemtwo {
+    .content__item_two {
         background-image: url(img/gametwo.jpg);
     }
-    .content__itemthree {
+    .content__item_three {
         background-image: url(img/gamethree.jpg);
     }
