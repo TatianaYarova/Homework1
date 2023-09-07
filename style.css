@@ -90,6 +90,7 @@
         width: 370px;
         height: 300px;
         border-radius: 16px;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), lightgray 50% / cover no-repeat;
         color: #FFF;
        font-family: Montserrat;
        font-size: 24px;
