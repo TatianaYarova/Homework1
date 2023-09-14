@@ -128,6 +128,96 @@
     .content__item_three {
         background-image: url(img/gamethree.jpg);
     }
+    .footer {
+      height: 1024px;
+      background-color: #001915;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+    }
+    .footer__content {
+      padding-top: 218px;
+      padding-bottom: 218px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 135px;
+      
+      flex-wrap: wrap;
+    }
+    .footer__time{
+      width: 584px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .footer__title {
+     
+      color: #FFF;
+     font-family: Montserrat;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     padding-bottom: 32px;
+
+    }
+    .footer__text {
+      color: #FFF;
+     font-family: Montserrat;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 32px; /* 177.778% */
+     padding-bottom: 32px;
+
+    }
+    .footer__button {
+      width: 234.063px;
+      height: 48.603px;
+      border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+     font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 74px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 74px;
+    box-sizing: border-box;
+    border: none;
+    transition: 3s all;
+     &:hover{
+     border: 1px solid #eb443f;
+     background:#eb443f ;
+     transition: 3s;
+
+   }
+   .footer__time {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   }
+   .footer__image {
+    width: 485px;
+    height: 333px;
+
+
+   }
+
+    }
+
+
+
+
+
+
     /* Адаптив планшет */
 @media(max-width: 1024px){
   .center {
@@ -192,6 +282,3 @@
     }
 
 }
-
-
-
