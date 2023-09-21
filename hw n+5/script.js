@@ -16,7 +16,7 @@ console.info(even(4));
 
 let square=(number) =>  number * number;
  
-console.log(result = square(5));
+console.log(square(5));
 
 // Задание 3.2
 
@@ -25,37 +25,40 @@ console.log(result = square(5));
 //     return number * number; 
 // }; 
  
-// console.log(result = square(5));
+// console.log(square(5));
 
 
 // Задание 4
 
-let age = prompt("Сколько Вам лет?");
+
+
+function printMessage() {
+
+    let age = prompt("Сколько Вам лет?");
+
+    if (age < 0) {
 
 
 
-if (age < 0) {
+     console.log("Вы ввели неправильное значение!");
+   
 
-    function printMessage() {
-        console.log("Вы ввели неправильное значение!");
-    }
+    } else if (age < 12)   {
 
-} else if (age < 12)   {
+       
+     console.log("Привет!");
 
-       function printMessage() {
-       console.log("Привет!");
-
-    }    
+  
     
 
-} else {
+    } else {
 
-    function printMessage() {
-        console.log("Здравствуйте!");
+   
+     console.log("Здравствуйте!");
+    
+
     }
-
 }
-
 
 printMessage();
 
