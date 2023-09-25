@@ -128,7 +128,7 @@
     .content__item_three {
         background-image: url(img/gamethree.jpg);
     }
-    .footer {
+    .box {
       height: 1024px;
       background-color: #001915;
       background-repeat: no-repeat;
@@ -136,7 +136,7 @@
       background-size: cover;
       
     }
-    .footer__content {
+    .box__content {
       padding-top: 218px;
       padding-bottom: 218px;
       display: flex;
@@ -146,14 +146,14 @@
       
       flex-wrap: wrap;
     }
-    .footer__time{
+    .box__time{
       width: 584px;
       height: auto;
       display: flex;
       flex-direction: column;
     }
   
-    .footer__title {
+    .box__title {
      
       color: #FFF;
      font-family: Montserrat;
@@ -164,7 +164,7 @@
      padding-bottom: 32px;
 
     }
-    .footer__text {
+    .box__text {
       color: #FFF;
      font-family: Montserrat;
      font-size: 18px;
@@ -174,7 +174,7 @@
      padding-bottom: 32px;
 
     }
-    .footer__button {
+    .box__button {
       width: 234.063px;
       height: 48.603px;
       border-radius: 30px;
@@ -198,13 +198,13 @@
      transition: 3s;
 
    }
-   .footer__time {
+   .box__time {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
    }
-   .footer__image {
+   .box__image {
 
     width: 485px;
     height: 333px;
@@ -281,7 +281,7 @@
      text-align: center;
     }
 
-    .footer {
+    .box {
       height: 654px;
       background-color: #001915;
       background-repeat: no-repeat;
@@ -289,7 +289,7 @@
       background-size: cover;
       
     }
-    .footer__content {
+    .box__content {
       padding-top: 52px;
       padding-bottom: 86px;
       display: flex;
@@ -299,7 +299,7 @@
       
       flex-wrap: wrap;
     }
-    .footer__title {
+    .box__title {
       color: #FFF;
       text-align: center;
       font-family: Montserrat;
@@ -310,7 +310,7 @@
      padding-bottom: 32px;
 
     }
-    .footer__text {
+    .box__text {
       width: 343px;
       color: #FFF;
       text-align: center;
@@ -322,17 +322,20 @@
      padding-bottom: 32px;
 
     }
-    .footer__image {
+    .box__image {
       width: 344px;
      height: 236px;
   
     }
-    .footer__button{
+    .box__button{
       width: 234.063px;
       height: 48.603px;
       flex-shrink: 0;
-      margin-left: 70px;
-      margin-right: 70px;
+      width: 234.063px;
+      height: 48.603px;
+      flex-shrink: 0;
+      align-self: center;
+      
 
     }
 
