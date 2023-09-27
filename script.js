@@ -34,7 +34,7 @@ function gameStart() {
 	questionLastEl = prompt('Чему равнялся последний элемент массива?');
 
 		if (gameArr[0].toLowerCase() === questionFristEl.toLowerCase() && gameArr[6].toLowerCase() === questionLastEl.toLowerCase()) {
-			alert('Поздравляем! Возьмите с полки пирожок.');
+			alert('Поздравляем! Вы мегамозг.');
 		} else if (gameArr[0].toLowerCase() != questionFristEl.toLowerCase() && gameArr[6].toLowerCase() != questionLastEl.toLowerCase()) {
 			alert('Всё неправильно');
 		} else {
