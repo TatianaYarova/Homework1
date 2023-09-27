@@ -26,7 +26,21 @@ if (userAnswer === 1 || userAnswer === 2 || userAnswer=== 12) {
 } 
 }
 
+function gameStart() {
+	let gameArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+	gameArr.sort();
+	alert(gameArr);
+	questionFristEl = prompt('Чему равнялся первый элемент массива?');
+	questionLastEl = prompt('Чему равнялся последний элемент массива?');
 
+		if (gameArr[0].toLowerCase() === questionFristEl.toLowerCase() && gameArr[6].toLowerCase() === questionLastEl.toLowerCase()) {
+			alert('Поздравляем! Возьмите с полки пирожок.');
+		} else if (gameArr[0].toLowerCase() != questionFristEl.toLowerCase() && gameArr[6].toLowerCase() != questionLastEl.toLowerCase()) {
+			alert('Всё неправильно');
+		} else {
+			alert('Вы были близки к победе!');
+		}
+}
 
 
 
