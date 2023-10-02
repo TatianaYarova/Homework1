@@ -61,7 +61,7 @@ const timerId = setInterval(function () {
 
 function delayForSecond(callback) {
 
-  callback(callback, 1000);
+  setTimeout(callback, 1000);
 }
 
 delayForSecond(function () {
@@ -69,6 +69,7 @@ delayForSecond(function () {
 })
 
 // Задание 5
+
 function delayForSecond(cb) {
     setTimeout(() => {
         console.log('Прошла одна секунда');
@@ -81,3 +82,4 @@ function sayHi(name) {
     console.log(`Привет, ${name}!`);
 }
 delayForSecond(() => sayHi('Глеб')); 
+
