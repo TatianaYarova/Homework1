@@ -61,7 +61,7 @@ const timerId = setInterval(function () {
 
 function delayForSecond(callback) {
 
-  callback(callback, 1000);
+  setTimeout(callback, 1000);
 }
 
 delayForSecond(function () {
